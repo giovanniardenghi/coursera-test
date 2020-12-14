@@ -1,0 +1,44 @@
+body {
+	font-size: 16px;
+	font-family: Georgia, serif;
+}
+/**	HEADER **/
+#header-nav {
+	background-color: #ccc;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 5px;
+}
+.navbar-brand h1 {
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#navbar-collapse ul {
+	text-align: center;
+	font-size: 1.2em;
+	background-color: #fdd;
+	margin: 0px -15px 0px;
+}
+#navbar-collapse ul li {
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+}
+h2 + .container-fluid {
+	background-color: #ccc;
+	margin: 0px 15px 0px;
+}
+h2 {
+	font-weight: bold;
+	font-size: 1.75em;
+	margin-bottom: 30px;
+}
+h3 {
+	font-size: 1.2em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
