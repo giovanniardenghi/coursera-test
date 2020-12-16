@@ -1,0 +1,172 @@
+body {
+	font-size: 16px;
+  color: #005bab;
+	font-family: 'Roboto', sans-serif;
+	background-color: #f47922;
+}
+/**	HEADER **/
+#header-nav {
+	background-color: #bbb;
+	border-radius: 0;
+	border: 0;
+	padding-top: 15px;
+}
+#logo-img {
+  background: url('../img/kinetic_therapy_logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 5px 15px 15px 0;
+}
+.navbar-brand {
+	padding-top: 5px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}.navbar-brand h1 {
+	font-weight: 1000;
+	font-size: 3em;
+	color: #005bab;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-transform: uppercase;
+	clear: both;
+}
+.navbar-brand h1:nth-child(2) {
+	color: #f47922;
+	font-size: 1.5em;
+}
+#nav-list {
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px -15px 0px;
+}
+#nav-list li {
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+}
+#nav-list a {
+  color: #f47922;
+  text-align: center;
+  line-height: 1em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a:hover {
+  background-color: #005bab;
+}
+#nav-list a span {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  line-height: 1em;
+}
+#phone {
+  margin-top: 0px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  text-align: right;
+  padding-right: 15px;
+  font-size: 0.75em;
+  line-height: 0.7;
+}
+#phone a div { 
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  line-height: 1em;
+  padding-right: 0px;
+  font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.75em;
+	margin-bottom: 30px;
+}
+h3 {
+	font-size: 1.2em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../img/kinetic_therapy_logo_small.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  .navbar-brand {
+    padding-top: 0px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 0px;
+    font-size: 2.1em; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand h1:nth-child(2) { /* Restaurant name */
+    padding-top: 0px;
+    font-size: 1.05em; /* 1vw = 1% of viewport width */
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+  #logo-img {
+    background: url('../img/kinetic_therapy_logo_small.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  .navbar-brand {
+    padding-top: 0px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 0px;
+    font-size: 2.1em; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand h1:nth-child(2) { /* Restaurant name */
+    padding-top: 0px;
+    font-size: 1.05em; /* 1vw = 1% of viewport width */
+  }
+}
+@media (max-width: 767px) {
+  /* Header */
+    #logo-img {
+    background: url('../img/kinetic_therapy_logo_xsmall2.png') no-repeat;
+    width: 75px;
+    height: 75px;
+    margin: 7px 0px 0px 10px;
+  }
+  .navbar-brand {
+    padding-top: 0px;
+    height: 60px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 0px;
+    font-size: 1.75em; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand h1:nth-child(2) { /* Restaurant name */
+    padding-top: 0px;
+    font-size: 0.8725em; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  /* End Header */
+}
