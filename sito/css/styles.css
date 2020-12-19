@@ -158,8 +158,8 @@ h3 {
     padding-top: 0px;
     font-size: 0.7em; /* 1vw = 1% of viewport width */
   }
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
+  #nav-list .nav-link {
+    font-size: 5vw;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
