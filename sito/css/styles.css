@@ -4,6 +4,17 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #f47922;
 }
+h2 {
+  font-weight: bold;
+  font-size: 1.75em;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
 /**	HEADER **/
 #header-nav {
 	background-color: #bbb;
@@ -65,7 +76,7 @@ body {
   text-align: right;
   padding-bottom: 0;
 }
-#phone div { /* We Deliver */
+#phone div {
   text-align: right;
   padding-right: 15px;
   font-size: 0.75em;
@@ -88,24 +99,23 @@ body {
   padding-right: 0px;
   color: #005bab;
 }
-h2 {
-	font-weight: bold;
-	font-size: 1.75em;
-	margin-bottom: 30px;
+.btn {
+  margin-top: 10px;
+  background-color: #bbb;
+  color: #005bab;
+  font-weight: bold;
+  font-size: 1.5em;
+  border-color: #005bab;
+  border-width: 2px;
 }
-h3 {
-	font-size: 1.2em;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	font-weight: bold;
+.btn span {
+  padding-right: 10px;
+}
+.btn:hover {
+  background-color: #005bab;
+  color: #f47922; 
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-   
-}
-@media (min-width: 768px) and (max-width: 1199.98px) {
   #logo-img {
     background: url('../img/kinetic_therapy_logo_small.png') no-repeat;
     width: 100px;
@@ -127,6 +137,42 @@ h3 {
   .navbar-brand h1:nth-child(2) {
     padding-top: 0px;
     font-size: 1.05em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #logo-img {
+    background: url('../img/kinetic_therapy_logo_xsmall2.png') no-repeat;
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+  }
+  #nav-list .nav-link {
+    font-size: 0.8em;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    color: #005bab;
+    text-align: center;
+    line-height: 1em;
+  }
+  .navbar-brand h1 {
+    padding-top: 0px;
+    font-size: 1.4em;
+  }
+  .navbar-brand h1:nth-child(2) {
+    padding-top: 0px;
+    font-size: 0.7em;
+  }
+  #phone span {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #phone div:nth-child(2) { 
+    font-size: 1.6em;
+    margin-bottom: 5px;
+  }
+  #phone div:nth-child(2) span{
+    font-size: 0.8em;
+    padding-right: 5px;
   }
 }
 @media (max-width: 767.98px) {
@@ -158,8 +204,9 @@ h3 {
     padding-top: 0px;
     font-size: 0.7em; /* 1vw = 1% of viewport width */
   }
-  #nav-list .nav-link {
-    font-size: 5vw;
+  #collapsable-nav {
+    border-top: 1px solid #f47922;
+
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
@@ -169,5 +216,17 @@ h3 {
     margin-top: 7.5px;
     margin-bottom: 7.5px;
   }
+  #phone div{
+    text-align: center;
+  }
+  #collapsable-nav #phone span {
+    margin-right: 0px;
+  }
   /* End Header */
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  #nav-list .nav-link {
+    font-size: 4vw;
+  }
 }
